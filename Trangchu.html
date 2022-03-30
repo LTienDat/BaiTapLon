@@ -7,6 +7,10 @@
     <title>Flowercorner.vn</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="Trangchu.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="contrainer">
@@ -14,8 +18,8 @@
           <div class="col">
             <nav class="navbar navbar-expand-lg navbar-light bg-white">
               <div class="container-fluid" id="logo">
-                <a class="navbar-brand" href="#">
-                  <img src="anh/logo.png" alt="">
+                <a class="navbar-brand" id="logo" href="#">
+                  <img src="images/logo.png" alt="">
                 </a>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -29,9 +33,9 @@
       <div  class="manu">
         <div  class="row">
           <div class="col">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <div class="container-fluid" id="tuychon">
-                <a   class="navbar-brand" href="#">Trang chủ</a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" id="option">
+              <div class="container-fluid">
+                <a   class="navbar-brand" href="#" id="navbarDropdown" >Trang chủ</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -39,7 +43,7 @@
                   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
+                        Hoa Sinh Nhật 
                       </a>
                       <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="#">Action</a></li>
@@ -50,7 +54,7 @@
                     </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
+                        Hoa Khai Trương
                       </a>
                       <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="#">Action</a></li>
@@ -61,7 +65,7 @@
                     </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
+                        Hoa Thiết Kế
                       </a>
                       <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="#">Action</a></li>
@@ -72,7 +76,7 @@
                     </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
+                        Hoa Tươi
                       </a>
                       <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="#">Action</a></li>
@@ -82,7 +86,7 @@
                       </ul>
                     </li>
                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
+                        Hoa Chia Buồn
                       </a>
                       <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="#">Action</a></li>
@@ -101,13 +105,13 @@
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="anh/anh1.jpg" class="d-block w-100" alt="...">
+            <img src="images/images1.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="anh/anh2.jpg" class="d-block w-100" alt="...">
+            <img src="images/images2.jpg" class="d-block w-100" alt="...">
           </div>  
           <div class="carousel-item">
-            <img src="anh/anh3.jpg" class="d-block w-100" alt="...">
+            <img src="images/images3.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -120,67 +124,496 @@
         </button>
       </div>
       <div class="commit">
-        <div class="row">
-            <div class="cod-md-">
-              <img src="anh/commit1.png" alt="">
+        <div class="row" id="images-commmit">
+            <div class="col-sm-4">
+              <div class="ab">
+                <img src="images/commit1.png" alt="">
+              </div>
+              <div class="ship">  
+                <h2 id="commit-h2">FREE SHIPPING</h2>
+                <h5>Flower Corner giao miễn phí các Quận Dống Đa, Thanh Xuân, Cầu Giấy, Thanh Trì đối với tất cả bó hoa, lẵng hoa, và kệ hoa trên 1 triệu.</h5>
+              </div>
             </div>
-          </div>
-          <div class="cod-md-4">
-            <img src="anh/commit1.png" alt="">
-          </div>
-          <div class="cod-md-4">
-            <img src="anh/commit1.png" alt="">
-          </div>
-          
+            <div class="col-sm-4" id="abc" >
+              <div class="ab">
+
+                <img src="images/commit2.png" alt="">
+              </div>
+              <div class="fast">
+                <h2 id="commit-h2">GIAO NHANH TRONG 90 PHÚT</h2>
+                <h5>Flower Corner có thể giao nhanh trong 90' khu vực nội thành Hà Nội với bó hoa hoặc lẵng hoa đơn giản.</h5>
+              </div>
+            </div>
+            <div class="col-sm-4" id="abc" >
+              <div class="ab">
+                <img src="images/commit3.png" alt="">
+              </div>
+                <div class="beautiful">
+                  <h2 id="commit-h2">HOA ĐẸP NHƯ HÌNH</h2>
+                  <h5>Cam kết hoa đẹp như hình và giống đến 90% so với hình chụp trên website.</h5>
+                </div>
+            </div>
+            
+          </div>  
         </div>
       </div>
-      <h2 style="padding-left: 40%; padding-bottom: 40px; padding-top: 50px;">Bán Chạy Nhất</h2>
+      <h2 id="selling">Bán Chạy Nhất</h2>
       <div class="introl">  
         <div class="container">
           <div class="row">
               <div class="col-md-3">
-                <div class="card" style="width: 20rem;">
-                  <img src="anh/FirstDate.jpg" class="card-img-top" alt="...">
+                <div class="card">
+                  <img src="images/FirstDate.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <p style="right: 10px;" class="card-text">First Date</p>
+                    <p class="card-text">First Date</p>
+                    <div class="icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
                     <h5>550.000VNĐ</h5>
-                    <a href="#" class="btn btn-primary">Đặt hàng</a>
+                    <div class="order">
+                      <a href="#" class="btn btn-primary">Đặt hàng</a>
+                    </div>
                   </div>
                 </div>
               </div>
           <div class="col-md-3">
-          <div class="card" style="width: 20rem;">
-              <img src="anh/nangtho.jpg" class="card-img-top" alt="...">
+          <div class="card">
+              <img src="images/nangtho.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Nàng Thơ</p>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
                   <h5>350.000VNĐ</h5>
-                  <a href="#" class="btn btn-primary">Đặt hàng</a>
+                  <div class="order">
+                    <a href="#" class="btn btn-primary">Đặt hàng</a>
+                  </div>
                 </div>
             </div>
           </div>
           <div class="col-md-3">
-          <div class="card" style="width: 20rem;">
-              <img src="anh/langhhoayeuthuong.jpg" class="card-img-top" alt="...">
+          <div class="card">
+              <img src="images/langhhoayeuthuong.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Lãng Hoa Yêu Thương</p>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
                   <h5>400.000VNĐ</h5>
-                  <a href="#" class="btn btn-primary">Đặt hàng</a>
+                  <div class="order">
+                    <a href="#" class="btn btn-primary">Đặt hàng</a>
+                  </div>
                 </div>
             </div>
           </div>
           <div class="col-md-3">
-            <div class="card" style="width: 20rem;">
-              <img src="anh/thehope.jpg" class="card-img-top" alt="...">
+            <div class="card">
+              <img src="images/thehope.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">The Hope</p>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
                   <h5>380.000VNĐ</h5>
-                  <a href="#" class="btn btn-primary">Đặt hàng</a>
+                  <div class="order"> 
+                    <a href="#" class="btn btn-primary">Đặt hàng</a>
+                  </div>
                 </div>
             </div>
           </div>
        </div>
       </div>
-              
+      <h2 id="productnew">Sản phẩm Mới</h2>
+      <div class="introl">  
+        <div class="container">
+          <div class="row">
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="images/Miamor_Pro.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Mi Amor</p>
+                    <div class="icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h5>450.000VND</h5>
+                    <div class="order">
+                      <a href="#" class="btn btn-primary">Đặt hàng</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          <div class="col-md-3">
+          <div class="card">
+              <img src="images/Sunday_Pro.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Sunny Days</p>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5>450.000VND</h5>
+                  <div class="order">
+                    <a href="#" class="btn btn-primary">Đặt hàng</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+          <div class="card">
+              <img src="images/Love_Pro.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Tình Yêu Ngọt Ngào</p>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5>450.000VNĐ</h5>
+                  <div class="order">
+                    <a href="#" class="btn btn-primary">Đặt hàng</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="images/Pink_Pro.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Pink Moon</p>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5>690.000VND</h5>
+                  <div class="order"> 
+                    <a href="#" class="btn btn-primary">Đặt hàng</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+       </div>
+      </div>
+      <h2 id="birthday">Hoa Sinh Nhật</h2>
+      <div class="introl">  
+        <div class="container">
+          <div class="row">
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="images/matbiec_brithday.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Mắt Biếc</p>
+                    <div class="icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h5>450.000VND</h5>
+                    <div class="order">
+                      <a href="#" class="btn btn-primary">Đặt hàng</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          <div class="col-md-3">
+          <div class="card">
+              <img src="images/hacuc_brithday.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Hạ Về (Cúc Tana Xinh)</p>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5>450.000VNĐ</h5>
+                  <div class="order">
+                    <a href="#" class="btn btn-primary">Đặt hàng</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+          <div class="card">
+              <img src="images/tinhkhiet_brithday.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Tinh Khiết (Thạch Thảo Trắng)</p>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5>340.000VNĐ</h5>
+                  <div class="order">
+                    <a href="#" class="btn btn-primary">Đặt hàng</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="images/Pink_Pro.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Pink Moon</p>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5>690.000VNĐ</h5>
+                  <div class="order"> 
+                    <a href="#" class="btn btn-primary">Đặt hàng</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+       </div>
+      </div>
+      <h2 id="grandfrix">Hoa Khai Trương</h2>
+      <div class="introl">  
+        <div class="container">
+          <div class="row">
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="images/nhiethuyet_grand.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Kệ Hoa Khai Trương Nhiệt Huyết</p>
+                    <div class="icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h5>720.000VND</h5>
+                    <div class="order">
+                      <a href="#" class="btn btn-primary">Đặt hàng</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          <div class="col-md-3">
+          <div class="card">
+              <img src="images/cattuong_grand.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Hoa Khai Trương Cát Tường</p>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5>820.000VNĐ</h5>
+                  <div class="order">
+                    <a href="#" class="btn btn-primary">Đặt hàng</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+          <div class="card">
+              <img src="images/hongphat_grand.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Kệ Hoa Chúc Mừng Hồng Phát 2</p>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5>1.200.000VNĐ</h5>
+                  <div class="order">
+                    <a href="#" class="btn btn-primary">Đặt hàng</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="images/trangtrong_grand.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Kệ Hoa Khai Trương Trang Trọng</p>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5>1.650.000VNĐ</h5>
+                  <div class="order"> 
+                    <a href="#" class="btn btn-primary">Đặt hàng</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+       </div>
+      </div>
+      <h2 id="condolatory">Hoa Chia Buồn</h2>
+      <div class="introl">  
+        <div class="container">
+          <div class="row">
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="images/thanhkinh_condo.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Hoa Chia Buồn Thành Kính</p>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    <h5>790.000VND</h5>
+                    <div class="order">
+                      <a href="#" class="btn btn-primary">Đặt hàng</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          <div class="col-md-3">
+          <div class="card">
+              <img src="images/nhothuong_condo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Vòng Hoa Tang Lễ Nhớ Thương</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  <h5>980.000VNĐ</h5>
+                  <div class="order">
+                    <a href="#" class="btn btn-primary">Đặt hàng</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+          <div class="card">
+              <img src="images/tienbiet_condo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Hoa Chia Buồn Tiễn Biệt</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  <h5>850.000VNĐ</h5>
+                  <div class="order">
+                    <a href="#" class="btn btn-primary">Đặt hàng</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="images/dongcam_condo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Hoa Chia Buồn Đồng Cảm</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  <h5>950.000VNĐ</h5>
+                  <div class="order"> 
+                    <a href="#" class="btn btn-primary">Đặt hàng</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+       </div>
+      </div>
+      <h1 id="title">Shop Hoa Tươi Flower Corner</h1>  
+      <div class="intro">
+        <div class="row" id="intro-row">
+          <div class="col-md-5">
+            <h2 class="title-intro1">Giới Thiệu Về Flower Corner</h2>
+            <p class="text-intro1">Flower Corner là shop hoa tươi uy tín tại TP HCM, Việt Nam. Flower Corner cung cấp dịch vụ điện hoa và đặt hoa online 24/7 giao tận nơi tại TP HCM, Hà Nội và trên tất cả các tỉnh – thành phố tại Việt Nam. Với hệ thống cửa hàng hoa tươi liên kết trên khắp tất cả các tỉnh – thành phố trên toàn quốc, Flower Corner có thể giúp bạn gửi tặng hoa tươi cho người thân ở bất cứ nơi đâu tại Việt Nam. Flower Corner cam kết mang đến cho bạn những sản phẩm hoa tươi chất lượng cao, với mức giá tốt nhất và dịch chuyên nghiệp nhất khi sử dụng dịch vụ đặt hoa tươi online giao tận nơi tại Flowercorner.vn.
+            </p>
+            <iframe id="video" width="560" height="380" src="https://www.youtube.com/embed/Bd5ZMirqbEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h2 class="title-intro2">Đặt Hoa Online – Ưu Đãi Hấp Dẫn</h2>
+            <img src="anh/anhintro.jpg" alt="">
+            
+            <p class="text-intro2">Khi đặt hoa online tại shop hoa tươi Flower Corner, bạn không chỉ được miễn phí giao hàng trong khu vực nội thành TP HCM, tặng kèm thiệp chúc mừng, mà còn được giảm đến 50k cho đơn hàng đầu tiên. Bên cạnh đó, vào mỗi thứ 6 hàng tuần, bạn cũng sẽ được giảm ngay 10% tối đa lên đến 100k với chương trình ưu đãi Thứ 6 vui vẻ. Đặc biệt, những khách hàng cũ cũng sẽ được giảm giá lên đến 10% cho các đơn hàng tiếp theo.</p>
+            
+            <h2 class="title-intro3" >Đặt Hoa Online mọi lúc, mọi nơi</h2>
+            <p class="text-intro3">Ưu điểm của Flower Corner đó là cho phép bạn đặt hoa tươi gửi tặng người thân dù bạn đang ở bất cứ nơi đâu, vào bất cứ thời điểm nào chỉ với vài thao tác đơn giản ngay trên website flowercorne.vn hoặc trên ứng dụng Flower Corner.</p>
+            <p class="text-intro4">Nếu bạn đang phân vân không biết nên lựa chọn loài hoa nào để phù hợp cho từng sự kiện, bạn có thể chat ngay với các nhân viên tư vấn của Flower Corner để được tư vấn lựa chọn mẫu hoa phù hợp nhất.</p>
+            <h3 class="title-intro4">Đặt hoa đơn giản, thanh toán dễ dàng</h2>
+            <p class="text-intro5">Với shop hoa tươi Flower Corner, thay vì mất hàng giờ chạy xe lòng vòng qua các shop hoa tươi, thì bạn chỉ cần ngồi một chỗ và thực hiện vài thao tác đơn giản trên ứng dụng hoặc website là đã có ngay một mẫu hoa thật đẹp để tặng vợ, bạn gái, người thân hay đối tác. Nếu vẫn cảm thấy chưa yên tâm về chất lượng hoa, bạn có thể yêu cầu nhân viên của Flower Corner chụp và gửi hình hoa để duyệt trước khi giao.</p>
+            <p class="text-intro6">Flower Corner cung cấp cho bạn nhiều lựa chọn về phương thức thanh toán từ: COD, chuyển khoản ngân hàng, thanh toán qua thẻ visa, master card, Paypal… để bạn có thể dễ dàng đặt hoa mà không gặp phải bất cứ trở ngại nào.</p>
+          </div>
+          <div class="col-md-5">
+            <p class="text-intro7" >Được thành lập từ năm 2017 với mục tiêu mang đến cho khách hàng trải nghiệm tuyệt vời về một dịch vụ đặt hoa online chuyên nghiệp, cửa hàng hoa tươi Flower Corner đã giúp hàng chục ngàn khách hàng gửi tặng những bó hoa tươi đẹp và đầy ý nghĩa đến những người thân yêu trong tất cả những dịp đặc biệt trong năm.</p>
+            <h2>Đặt hoa online giá tốt – Giao nhanh trong 90p</h2>
+            <p class="text-intro8">Nếu bạn đang tìm kiếm một trang website đặt hoa online giao tận nơi thì flowercorner.vn là một sự lựa chọn tuyệt vời dành cho bạn. Tại shop hoa tươi Flower Corner, bạn có thể dễ dàng lựa chọn một mẫu hoa đẹp, ý nghĩa giữa hàng trăm mẫu hoa được thiết kế sẵn để gửi tặng người thân, bạn bè, đối tác trong tất cả các dịp đặc biệt trong năm hay trong những sự kiện như: khai trương, sinh nhật, lễ cưới, lễ tang…
+            </p>
+            <p>Ngoài những mẫu hoa có sẵn trên website, shop hoa tươi Flower Corner cũng nhận thiết kế hoa tươi theo yêu cầu với mọi mức giá để đáp ứng mọi nhu cầu của khách hàng. Nhờ thế, việc đặt hoa online tại Flower Corner trở nên nhanh chóng, dễ dàng và đơn giản hơn.</p>
+            <p class="text-intro9">Đặc biệt, với dịch vụ giao hoa nhanh trong 90 phút, shop hoa tươi Flower Corner sẽ giúp bạn kịp thời gửi tặng một bó hoa tới người thân, bạn bè nếu như bạn cần đặt gấp trong ngày.</p>
+            <h1 class="title-intro5">Danh mục sản phẩm của Flower Corner</h1>
+            <p>Đến với Flower Corner, bạn có thể thoải mái lựa chọn giữa hơn 500+ mẫu hoa tươi được thiết kế sẵn theo các chủ đề như:
+                <p class="text-intro10">
+                  Hoa sinh nhật: Hoa tặng sinh nhật vợ, bạn gái, ba mẹ, anh chị, bạn bè...<br>
+                  Hoa khai trương: hoa chúc mừng khai trương cửa hàng, công ty.<br>
+                  Hoa cưới: hoa cầm tay cô dâu, hoa cài áo chú rể..<br>
+                  Hoa tốt nghiệp: hoa tặng bạn bè, người thân trong lễ tốt nghiệp.<br>
+                  Hoa tang lễ: hoa chia buồn để gửi tới các đám tang.<br>
+                  Hoa các dịp đặc biệt: Valentine, ngày của mẹ, ngày của cha, ngày quốc tế phụ nữ 8-3.
+                </p>
+            </p>
+            <p class="text-intro11">Đặc biệt, ngoài những mẫu hoa được thiết kế từ các loài hoa trong nước, shop hoa tươi Flower Corner cũng cung cấp các mẫu hoa nhập khẩu cao cấp, sang trọng.</p>
+            <h2 class="title-intro6">Tại sao nên chọn shop hoa Flower Corner</h2>
+            <p>
+              Không khó để bạn tìm được một cửa hàng hoa cung cấp dịch vụ đặt hoa online giao tận nơi. Vậy tại sao bạn nên sử dụng dịch vụ điện hoa (Flower Delivery) của shop hoa tươi Flower Corner?
+              <p class="text-intro12">
+                Hoa đẹp, thiết kế đa dạng phù hợp với tất cả sự kiện.<br>
+                Thiết kế theo yêu cầu của khách hàng.<br>
+                Gửi hình hoa trước khi giao.<br>
+                Đội ngũ florists chuyên nghiệp với nhiều năm kinh nghiệm.<br>
+              </p>
+            </p>
+            <h2 class="title-intro7">Cam kết từ shop hoa tươi Flower Corner</h2>
+            <p>Flower Corner hiểu rằng, hoa tươi dù không mang nhiều giá trị về mặt vật chất, nhưng lại có ý nghĩa rất lớn về mặt tinh thần. Mỗi một bó hoa gửi đi gửi gắm rất nhiều tình cảm, thông điệp yêu thương mà bạn muốn gửi đến những người thân. Chính vì thế, Flower Corner luôn nỗ lực nâng cao chất lượng sản phẩm và dịch vụ để mang đến bạn những trải nghiệm tuyệt vời nhất khi sử dụng dịch vụ của Flower Corner. Shop hoa tươi Flower Corner cam kết:
+              <p class="text-intro13">
+                Chỉ sử dụng hoa tươi mới nhập về trong ngày.<br>
+                Hoa đẹp và 90% giống như hình.<br>  
+                Giao hoa nhanh, đúng giờ.<br>
+              </p>
+              Nếu bạn đang cần đặt hoa để gửi tặng người thân trong những dịp đặc biệt, gọi ngay 1900 633 045 để được tư vấn hoặc đặt hoa giao nhanh với shop hoa tươi Flower Corner!
+            </p>
+
+          </div>
+        </div>
+      </div>
+      
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,5 +1,9 @@
-.navbar-brand{
-    padding-left: 40%;
+
+#logo{
+    padding-left: 20%;
+}
+#option{
+    padding-left: 20%;
 }
 .manu{
     padding-top: 30px;
@@ -16,3 +20,133 @@
 .card-text{
     padding: auto;
 }
+#images-commmit{
+    display: flex;
+}
+.ab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 200px;
+}
+.commit{
+    padding-right: 200px;
+  
+}
+.ship{
+    padding-left: 200px;
+    text-align: center;
+}
+.fast{
+    padding-left: 200px;
+    text-align: center;
+}
+.beautiful{
+    padding-left: 200px;
+    text-align: center;
+}
+#commit-h2{
+    padding-bottom: 20px;
+}
+#selling{
+    padding-left: 45%;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+.card{
+    width: 20rem;
+}
+.icon{
+    color: #ffc107;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+#productnew{
+    padding-left: 45%;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+#birthday{
+    padding-left: 45%;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+
+#grandfrix{
+    padding-left: 45%;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+#condolatory{
+    padding-left: 45%;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+.card-body{
+    text-align: center;
+}
+.card-text{
+    padding-bottom: 20px;
+}
+.order{
+    padding-top: 20px;
+}
+#title{
+    padding-left: 40%;
+    padding-top: 100px;
+    padding-bottom: 35px;
+    font-size: 30px;
+}
+.intro{
+    padding: 100px 0 100px 200px;
+    text-align: center;
+    
+   
+}
+#video{
+    padding-top: 30px ;
+    padding-bottom: 50px;
+    display: flex;
+}
+#intro-row{
+    text-align: left;
+}
+.title-intro1{
+    text-align: center;
+    font-size: 25px;
+}
+.text-intro1{
+    padding: 20px 0;
+}
+.title-intro2, .title-intro3, .title-intro4{
+    font-size: 25px;
+}
+.text-intro2, .text-intro3, .text-intro5, .text-intro8, .text-intro9, .text-intro11{
+    padding: 20px 0;
+}
+.text-intro4, .text-intro6, .text-intro7{
+    padding-bottom: 20px;
+}
+.title-intro5{
+    padding: 50px 0 20px;
+    font-size: 25px;
+}
+.text-intro10, .text-intro12, .text-intro13{
+    line-height: 1.5;
+    padding-left: 20px;
+    
+}
+.title-intro6, .title-intro7{
+    padding: 30px 0 20px;
+    font-size: 25px;
+}
+
+
+
+
+
