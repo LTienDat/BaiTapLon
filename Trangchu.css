@@ -126,6 +126,9 @@
 .title-intro2, .title-intro3, .title-intro4{
     font-size: 25px;
 }
+#img-intro{
+    padding: 10px 20px;
+}
 .text-intro2, .text-intro3, .text-intro5, .text-intro8, .text-intro9, .text-intro11{
     padding: 20px 0;
 }
@@ -136,7 +139,7 @@
     padding: 50px 0 20px;
     font-size: 25px;
 }
-.text-intro10, .text-intro12, .text-intro13{
+.text-intro10, .text-intro12{
     line-height: 1.5;
     padding-left: 20px;
     
@@ -145,8 +148,36 @@
     padding: 30px 0 20px;
     font-size: 25px;
 }
+.text-intro13{
+    line-height: 1.5;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+/* #butter-row{
+    text-align: center;
+} */
+.butter{
+    padding-left: 200px;
+    display: flex;
+}
+.contacts{
+    text-align: left;
+    padding-bottom: 20px;
 
-
+}
+.row-download{
+    display: flex;
+    
+}
+.colum{
+    width: 18rem;
+    text-align: left;
+}
+#care{
+    font-size: 13px;
+    padding-top: 20px;
+    line-height: 1.5;
+}
 
 
 
