@@ -3,35 +3,32 @@
     padding-left: 20%;
 }
 #option{
-    padding-left: 20%;
-}
+    padding-left: 25%;
+}pro
+/* manu */
 .manu{
     padding-top: 30px;
-}
-.carousel-inner{
-    padding-top: 50px;
 }
 .nav-link{
     margin: 0 30px;
 }
-.carousel{
-    padding-bottom: 200px;
+/* background */
+.carousel-inner{
+    padding: 50px 0 150px;
 }
-.card-text{
-    padding: auto;
+/* commit */
+.commit{
+    padding-right: 200px;
 }
 #images-commmit{
     display: flex;
 }
+  
 .ab{
     display: flex;
     align-items: center;
     justify-content: center;
     padding-left: 200px;
-}
-.commit{
-    padding-right: 200px;
-  
 }
 .ship{
     padding-left: 200px;
@@ -48,6 +45,7 @@
 #commit-h2{
     padding-bottom: 20px;
 }
+/* sản phẩm bán chạy nhất */
 #selling{
     padding-left: 45%;
     padding-top: 100px;
@@ -62,25 +60,28 @@
     padding-bottom: 10px;
     padding-top: 20px;
 }
+/* hàng mới nhất */
 #productnew{
     padding-left: 45%;
     padding-top: 100px;
     padding-bottom: 40px;
     font-size: 30px;
 }
+/* hoa sinh nhật */
 #birthday{
     padding-left: 45%;
     padding-top: 100px;
     padding-bottom: 40px;
     font-size: 30px;
 }
-
+/* Hoa khai trương */
 #grandfrix{
     padding-left: 45%;
     padding-top: 100px;
     padding-bottom: 40px;
     font-size: 30px;
 }
+/* hoa chia buồn */
 #condolatory{
     padding-left: 45%;
     padding-top: 100px;
@@ -102,10 +103,11 @@
     padding-bottom: 35px;
     font-size: 30px;
 }
+/* Giới thiệu */
 .intro{
-    padding: 100px 0 100px 200px;
-    text-align: center;
-    
+    padding: 100px 0px 100px 250px;
+    /* text-align: center; */
+    font-family: helvetica neue,sans-serif;
    
 }
 #video{
@@ -153,12 +155,17 @@
     padding-left: 20px;
     padding-bottom: 20px;
 }
-/* #butter-row{
-    text-align: center;
-} */
+.ruler{
+    border: 1px solid grey;
+    width: 80%;
+    
+}
+/* butter */
 .butter{
-    padding-left: 200px;
+    padding-left: 250px;
     display: flex;
+    font-size: 18px;
+    padding-bottom: 50px;
 }
 .contacts{
     text-align: left;
@@ -169,6 +176,9 @@
     display: flex;
     
 }
+#app{
+    padding-left: 20px;
+}
 .colum{
     width: 18rem;
     text-align: left;
@@ -177,7 +187,23 @@
     font-size: 13px;
     padding-top: 20px;
     line-height: 1.5;
+
+}
+.fa-brands{
+    text-decoration: none;
+    font-size: 14px;
+    color: grey;
+    /* line-break: strict; */
+    padding: 10px 55px 10px;
 }
 
+#colum4-2, #colum4-3{
+    padding: 10px 0 10px;
+}
+.address{
+    padding-left: 250px;
+    line-break: strict;
+    line-height: 1.5;
+}
 
 
