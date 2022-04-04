@@ -9,6 +9,7 @@
 }
 .nav-link{
     margin: 0 30px;
+    color: black;
 }
 .carousel-inner{
     padding: 50px 0 150px;
@@ -21,7 +22,7 @@
     padding: 50px 45% 20px;
     font-size: 30px;
 }
-.ruler{
+#titlebir{
     border: 2px solid rgb(100, 9, 39);
     width: 100%;
     
@@ -52,24 +53,98 @@
 .btn{
     background-color: #e91e63;
     border-radius: 10px;
+    border: 1px solid #ffff;
 }
 /* giới thiệu về hoa sinh nhật */
 .intro{
+    padding-bottom: 50px;
     padding-top: 50px;
-    padding-left: 30px;
+    padding-left: 250px;
 
 }
-h1{
+#title{
     font-size: 30px;
     padding-left: 35%;
     padding-bottom: 20px;
 
 }
-p {
+.col-md-10 p{
     font-family: inherit!important;
-    line-height: 2;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.3;
+    padding-top: 15px;
+}   
+.col-md-10 h2{
+    font-size: 25px;
+    padding-top: 20px;
 }
-h2{
-    font-size: 50px;
+#imgintro{
+    margin-left: 20%;
+    padding-bottom: 20px;
+}
+#img{
+    margin-left: 27%;
+    padding-bottom: 10px;
+
+}
+.col-md-10 h3{
+    padding-left: 50px;
+    line-height: 1.3;
+    list-style-position: outside;
+    font-size: 18px;
+}
+.col-md-10 h1{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.col-md-10 h4{
+    text-align: center ;
+    padding-bottom: 30px;
+}
+.col-md-10 iframe{
+    margin-left: 25%;
+}
+/* butter */
+.butter{
+    display: flex;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+.contacts{
+    text-align: left;
+    padding-bottom: 20px;
+
+}
+.row-download{
+    display: flex;
+    
+}
+#app{
+    padding-left: 20px;
+}
+.colum{
+    text-align: left;
+}
+#care{
+    font-size: 13px;
+    padding-top: 20px;
+    line-height: 1.5;
+
+}
+.fa-brands{
+    text-decoration: none;
+    font-size: 14px;
+    color: grey;
+    line-break: strict;
+    padding: 10px 65px 10px;
+    text-align: left;
 }
 
+#colum4-2, #colum4-3{
+    padding: 10px 0 10px;
+}
+.address{
+    line-break: strict;
+    line-height: 1.5;
+}
