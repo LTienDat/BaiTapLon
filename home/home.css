@@ -60,6 +60,11 @@
     padding-bottom: 10px;
     padding-top: 20px;
 }
+.btn{
+    background-color: #e91e63;
+    border-radius: 10px;
+    border: 1px solid #ffff;
+}
 /* hàng mới nhất */
 #productnew{
     padding-left: 45%;

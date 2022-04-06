@@ -14,14 +14,39 @@
 .carousel-inner{
     padding: 50px 0 150px;
 }
-/* Danh sách hoa sinh nhật */
-#birthday{
-    padding: 50px 44% 20px;
+/* danh sách hoa theo chủ đề */
+/* Hoa chúc mừng */
+#themed{
+    padding: 50px 43% 20px;
     font-size: 30px;
 }
-#titlebir{
+#rulerthemed1{
     border: 2px solid rgb(100, 9, 39);
-    width: 100%;
+    width: 80%;
+    
+}
+#rulerthemed2{
+    border: 2px solid rgb(100, 9, 39);
+    width: 90%;
+    
+}
+#rulerthemed3, #rulerthemed4{
+    border: 2px solid rgb(100, 9, 39);
+    width: 68%;
+    
+}
+#rulerthemed6{
+    border: 2px solid rgb(100, 9, 39);
+    width: 76%;
+}
+#themed5{
+    padding: 50px 35% 20px;
+    font-size: 30px;
+}
+#rulerthemed5{
+    display: flex;
+    border: 2px solid rgb(100, 9, 39);
+    width: 96%;
     
 }
 .product{
@@ -53,17 +78,16 @@
     border-radius: 10px;
     border: 1px solid #ffff;
 }
-/* giới thiệu về hoa sinh nhật */
+/* Giới thiệu về các loại hoa theo chủ đề */
 .intro{
     padding-bottom: 50px;
     padding-top: 50px;
     padding-left: 250px;
 
 }
-#title{
+.col-md-10 h1{
     font-size: 30px;
-    padding-left: 35%;
-    padding-bottom: 20px;
+    padding: 50px 40% 0;
 
 }
 .col-md-10 p{
@@ -72,36 +96,17 @@
     font-size: 18px;
     line-height: 1.3;
     padding-top: 15px;
-}   
+}  
 .col-md-10 h2{
     font-size: 25px;
     padding-top: 20px;
-}
-#imgintro{
-    margin-left: 20%;
     padding-bottom: 20px;
-}
-#img{
-    margin-left: 27%;
-    padding-bottom: 10px;
-
-}
+} 
 .col-md-10 h3{
     padding-left: 50px;
     line-height: 1.3;
     list-style-position: outside;
     font-size: 18px;
-}
-.col-md-10 h1{
-    font-size: 30px;
-    padding-bottom: 10px;
-}
-.col-md-10 h4{
-    text-align: center ;
-    padding-bottom: 30px;
-}
-.col-md-10 iframe{
-    margin-left: 25%;
 }
 /* butter */
 .butter{
@@ -120,6 +125,7 @@
 }
 #app{
     padding-left: 20px;
+
 }
 .colum{
     text-align: left;
