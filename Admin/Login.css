@@ -1,0 +1,48 @@
+.login{
+    width: 500px;
+    height: 500px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    margin: 200px 35% ;
+    line-break: strict;
+}
+h2{
+    padding: 20px;
+}
+#row{
+    width: 350px;
+    height: 35px;
+}
+.input{
+    padding-top: 20px;
+}
+.title{
+    padding-right: 290px;
+}
+button{
+    width: 350px;
+    height: 35px;
+    margin-top: 20px;
+    background-color: #45a049;
+}
+.remember{
+    margin-top: 10px;
+    margin-right: 273px;
+}
+.check{
+    margin-top: 20px;
+    
+}
+.forgot{
+    margin-top: 20px;
+    margin-left: 240px;
+}
+.signin{
+    width: 250px;
+    height: 30px;
+    border: 1px solid gray;
+    text-decoration: none;
+    text-align: center;
+}
+
