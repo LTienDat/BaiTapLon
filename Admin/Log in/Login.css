@@ -38,11 +38,10 @@ button{
     margin-top: 20px;
     margin-left: 240px;
 }
-.signin{
+#signin{
     width: 250px;
     height: 30px;
-    border: 1px solid gray;
-    text-decoration: none;
-    text-align: center;
+    background-color: cadetblue;
+    
 }
 
