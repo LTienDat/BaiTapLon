@@ -1,4 +1,109 @@
-.admin{
+#colmd3{
+    border: 1px solid grey;
+    width: 300px;
+    height: 880px;
+    margin-left: 120px;
+}
+.list-group-item{
+    border: 1px solid grey;
+    width: 300px;
+    height: 40px;
+    padding-top: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
     text-align: center;
-    padding-top: 50px;
+}
+.list-group{
+    margin-top: 200px;
+}
+#colmd7{
+    border: 1px solid grey;
+    width: 1150px;
+    height: 885px;
+    margin-left: 30px;
+}
+.btn-group{
+    margin-bottom: 20px;
+}
+.row{
+    display: flex;
+}
+#add{
+    margin-left: 500px;
+}
+#stt{
+    border: 1px solid grey;
+    width: 30px;
+    height: 790px;
+}
+#number{
+    border: 1px solid grey;
+    width: 30px;
+    height: 50px;
+    text-align: center;
+}
+#product{
+    border: 1px solid grey;
+    width: 500px;
+    height: 790px;
+}
+#nameproduct{
+    border: 1px solid grey;
+    width: 500px;
+    height: 50px;
+    text-align: center;
+}
+.pro{
+    display: flex;
+}
+#anh{
+    border: 1px solid grey;
+    width: 150px;
+    height: 790px;
+}
+#images{
+    border: 1px solid grey;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+
+}
+#dongia{
+    border: 1px solid grey;
+    width: 150px;
+    height: 790px;
+}
+#price{
+    border: 1px solid grey;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+
+}
+#hienthi{
+    border: 1px solid grey;
+    width: 150px;
+    height: 790px;
+}
+#show{
+    border: 1px solid grey;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+
+}
+#chinhsua{
+    border: 1px solid grey;
+    width: 150px;
+    height: 790px;
+}
+#edit{
+    border: 1px solid grey;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+
 }

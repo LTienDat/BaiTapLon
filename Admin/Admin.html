@@ -5,12 +5,134 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flowercorner/admin</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
     <link rel="stylesheet" href="Admin.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="admin">
-        <h1>Users Management</h1>
-        
+        <div class="row">
+            <div id="colmd3" class="col-md-3">
+                    <ul class="list-group">
+                        <a href=""> <li class="list-group-item">Sản phẩm</li> </a>
+                        <a href=""> <li class="list-group-item">Bài Viết</li> </a>
+                        <a href=""> <li class="list-group-item">Quản trị giao diện</li> </a>
+                        <a href=""> <li class="list-group-item">Quản Trị Thông Tin</li> </a>
+                        <a href=""> <li class="list-group-item">An item</li> </a>
+                      </ul>
+            </div>
+            <div id="colmd7" class="col-md-7">
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                    <a href="../Home/Home.html"><button type="button" class="btn btn-outline-primary">Vào trang web</button></a>
+                    <a href=""><button type="button" class="btn btn-outline-primary">liên hệ</button></a>
+                    <a href=""><button type="button" class="btn btn-outline-primary">Đơn hàng</button></a>
+                </div>
+                <hr class="ruler">
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                    <a href=""><button type="button" class="btn btn-outline-primary">Hoa Sinh Nhật</button></a>
+                    <a href=""><button type="button" class="btn btn-outline-primary">Hoa Khai Trương</button></a>
+                    <a href=""><button type="button" class="btn btn-outline-primary">Hoa Theo Chủ Đề</button></a>
+                    <a href=""><button type="button" class="btn btn-outline-primary">Hoa Chia Buồn</button></a>
+                    <a href=""><button id="add" type="button" class="btn btn-outline-primary">Thêm mới</button></a>
+                </div>
+                <div class="pro">
+                <div id="stt" class="col">
+                    <ul class="list">
+                        <li id="number" class="list-group-item">STT</li>
+                        <li id="number" class="list-group-item">1</li>
+                        <li id="number" class="list-group-item">2</li>
+                        <li id="number" class="list-group-item">3</li>
+                        <li id="number" class="list-group-item">4</li>
+                        <li id="number" class="list-group-item">5</li>
+                        <li id="number" class="list-group-item">6</li>
+                        <li id="number" class="list-group-item">7</li>
+                        <li id="number" class="list-group-item">8</li>
+                        <li id="number" class="list-group-item">9</li>
+                        <li id="number" class="list-group-item">10</li>
+                      </ul>
+                </div>
+                <div id="product" class="col">
+                    <ul class="list">
+                        <li id="nameproduct" class="list-group-item">Sản Phẩm</li>
+                        <li id="nameproduct" class="list-group-item">Luôn Bên Em</li>
+                        <li id="nameproduct" class="list-group-item">Sunny</li>
+                        <li id="nameproduct" class="list-group-item">Yêu Kiều</li>
+                        <li id="nameproduct" class="list-group-item">Tươi Sáng</li>
+                        <li id="nameproduct" class="list-group-item">Cổ Tích</li>
+                        <li id="nameproduct" class="list-group-item">Đáng Yêu</li>
+                        <li id="nameproduct" class="list-group-item">Only You</li>
+                        <li id="nameproduct" class="list-group-item">Hồng Dịu Dàng</li>
+                        <li id="nameproduct" class="list-group-item">Tỏa Sáng</li>
+                        <li id="nameproduct" class="list-group-item">Vintage</li>
+                    </ul>
+                </div>
+                <div id="anh" class="col">
+                    <ul class="list">
+                        <li id="images" class="list-group-item">Ảnh</li>
+                        <li id="images" class="list-group-item"> <img width="80px" height="50px" src="images/luonbenem.jpg" alt=""> </li>
+                        <li id="images" class="list-group-item"> <img width="80px" height="50px" src="images/sunny.jpg" alt=""> </li>
+                        <li id="images" class="list-group-item"> <img width="80px" height="50px" src="images/yeukieu.jpg" alt=""> </li>
+                        <li id="images" class="list-group-item"> <img width="80px" height="50px" src="images/tuoisang.jpg" alt=""> </li>
+                        <li id="images" class="list-group-item"> <img width="80px" height="50px" src="images/cotich.jpg" alt=""> </li>
+                        <li id="images" class="list-group-item"> <img width="80px" height="50px" src="images/dangyeu.jpg" alt=""> </li>
+                        <li id="images" class="list-group-item"> <img width="80px" height="50px" src="images/onlyyou.jpg" alt=""> </li>
+                        <li id="images" class="list-group-item"> <img width="80px" height="50px" src="images/hongdiudang.jpg" alt=""> </li>
+                        <li id="images" class="list-group-item"> <img width="80px" height="50px" src="images/toasang.jpg" alt=""> </li>
+                        <li id="images" class="list-group-item"> <img width="80px" height="50px" src="images/vintage.jpg" alt=""> </li>
+                    </ul>
+                </div>
+                <div id="dongia" class="col">
+                    <ul class="list">
+                        <li id="price" class="list-group-item">Giá Bán</li>
+                        <li id="price" class="list-group-item">540.000VNĐ</li>
+                        <li id="price" class="list-group-item">340.000VNĐ</li>
+                        <li id="price" class="list-group-item">490.000VNĐ</li>
+                        <li id="price" class="list-group-item">910.000VNĐ</li>
+                        <li id="price" class="list-group-item">1.100.000VNĐ</li>
+                        <li id="price" class="list-group-item">580.000VNĐ</li>
+                        <li id="price" class="list-group-item">480.000VNĐ</li>
+                        <li id="price" class="list-group-item">520.000VNĐ</li>
+                        <li id="price" class="list-group-item">520.000VNĐ</li>
+                        <li id="price" class="list-group-item">1.050.000VNĐ</li>
+                      </ul>
+                </div>
+                <div id="hienthi" class="col">
+                    <ul class="list">
+                        <li id="show" class="list-group-item">Hiển Thị</li>
+                        <li id="show" class="list-group-item"> <input  type="checkbox"> </li>
+                        <li id="show" class="list-group-item"> <input  type="checkbox"> </li>
+                        <li id="show" class="list-group-item"> <input  type="checkbox"> </li>
+                        <li id="show" class="list-group-item"> <input  type="checkbox"> </li>
+                        <li id="show" class="list-group-item"> <input  type="checkbox"> </li>
+                        <li id="show" class="list-group-item"> <input  type="checkbox"> </li>
+                        <li id="show" class="list-group-item"> <input  type="checkbox"> </li>
+                        <li id="show" class="list-group-item"> <input  type="checkbox"> </li>
+                        <li id="show" class="list-group-item"> <input  type="checkbox"> </li>
+                        <li id="show" class="list-group-item"> <input  type="checkbox"> </li>
+                      </ul>
+                </div>
+                <div id="chinhsua" class="col">
+                    <ul class="list">
+                        <li id="edit" class="list-group-item">Chỉnh Sửa</li>
+                        <li id="edit" class="list-group-item"><i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-x"></i></li>
+                        <li id="edit" class="list-group-item"><i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-x"></i></li>
+                        <li id="edit" class="list-group-item"><i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-x"></i></li>
+                        <li id="edit" class="list-group-item"><i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-x"></i></li>
+                        <li id="edit" class="list-group-item"><i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-x"></i></li>
+                        <li id="edit" class="list-group-item"><i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-x"></i></li>
+                        <li id="edit" class="list-group-item"><i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-x"></i></li>
+                        <li id="edit" class="list-group-item"><i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-x"></i></li>
+                        <li id="edit" class="list-group-item"><i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-x"></i></li>
+                        <li id="edit" class="list-group-item"><i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-x"></i></li>
+                      </ul>
+                </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
 </body>
 </html>
