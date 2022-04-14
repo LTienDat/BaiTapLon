@@ -8,46 +8,55 @@
     <link rel="stylesheet" href="Signin.css">
 </head>
 <body>
-    <div class="signin">
+    <form action="">
+        <div class="signin">
         <h2>REGISTRATION</h2>
         <div class="info">
             <div class="title">
                 Your Name:: 
             </div>
-            <input id="row" type="text" placeholder="Your Name">
+            <input type="text" name="YourName" id="yourname" placeholder="YourName"required>
+            <span id="statusOfyourname"></span>
         </div>
         <div class="info">
             <div class="title2">
                 Email Address: 
             </div>
-            <input id="row" type="text" placeholder="Email Address:">
+            <input type="text" name="Email" id="Email" placeholder="Email Address:" required>
+            <span id="statusOfEmail"></span>
         </div>
         <div class="info">
             <div class="title">
                 Password: 
             </div>
-            <input id="row" type="text" placeholder="Password">
+            <input type="password" name="password" id="password" placeholder="Password" required>
+            <span id="statusOfpassword"></span>
         </div>
         <div class="info">
             <div class="title3">
                 Comfirm Password: 
             </div>
-            <input id="row" type="text" placeholder="Comfirm Password">
+            <input type="password" name="comfirmpassword" id="comfirmpassword" placeholder="Comfirm Password" required>
+            <span id="statusOfcomfirmpassword"></span>
         </div>
         <div class="info">
             <div class="title4">
-                Comfirm Password: 
+                Address: 
             </div>
-            <input id="row" type="text" placeholder="Comfirm Password">
+            <input type="text" name="address" id="address" placeholder="Address"required>
+            <span id="statusOfaddress"></span>
         </div>
         <div class="info">
             <div class="title5">
                 Phone Number: 
             </div>
-            <input id="row" type="text" placeholder="Phone Number">
+            <input type="text" name="phone" id="phone" placeholder="Phone Number"required>
+            <span id="statusOfphone"></span>
         </div>
         <a href="">
             <button type="submit">Register</button>
         </a>
+    </form>
+    <script src="Signin.js"></script>
 </body>
 </html>

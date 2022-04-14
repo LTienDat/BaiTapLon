@@ -1,34 +1,34 @@
 //yourname
 let yourname = document.getElementById('yourname');
-let statuOfyourname = document.getElementById('statuOfyourname');
+let statusOfyourname = document.getElementById('statusOfyourname');
 
 yourname.addEventListener('focusout', leaveyourname)
 function leaveyourname(){
     var yournameRegex = /^[a-zA-Z ]{1,30}$/;
     if(yournameRegex.test(yourname.value)){
-        statuOfyourname.textContent = 'hợp lệ'
-        statuOfyourname.style.color = 'green'
+        statusOfyourname.textContent = 'hợp lệ'
+        statusOfyourname.style.color = 'green'
     }
     else{
-        statuOfyourname.textContent = 'không hợp lệ(không có dấu)'
-        statuOfyourname.style.color = 'red'
+        statusOfyourname.textContent = 'không hợp lệ(không có dấu)'
+        statusOfyourname.style.color = 'red'
     }
 }
 
-//email
-let email = document.getElementById('email');
-let statusOfemail = document.getElementById('statusOfemail')
 
-email.addEventListener('focusout', leaveemail)
-function leaveemail(){   
-    var emailRegex = /\S+@\S+.\S+/;
-    if(emailRegex.test(email.value)){
-        statuOfemail.textContent = 'hợp lệ'
-        statuOfemail.style.color = 'green'
+let Email = document.getElementById('Email');
+let statusOfEmail = document.getElementById('statusOfEmail');
+
+Email.addEventListener('focusout', leaveEmail)
+function leaveEmail(){
+    var EmailRegex = /\S+@\S+.\S+/;
+    if(EmailRegex.test(Email.value)){
+        statusOfEmail.textContent = 'hợp lệ'
+        statusOfEmail.style.color = 'green'
     }
     else{
-        statuOfemail.textContent = 'không hợp lệ'
-        statuOfemail.style.color = 'red'
+        statusOfEmail.textContent = 'không hợp lệ'
+        statusOfEmail.style.color = 'red'
     }
 }
 
@@ -64,18 +64,18 @@ function leavecomfirmpassword(){
 }
 //address
 let address = document.getElementById('address');
-let statusOfaddress = document.getElementById('statusOfsddress')
+let statusOfaddress = document.getElementById('statusOfaddress')
 
 address.addEventListener('focusout', leaveaddress)
 function leaveaddress(){   
     var addressRegex = /\S+@\S+.\S+/;
     if(addressRegex.test(address.value)){
-        statuOfaddress.textContent = 'hợp lệ'
-        statuOfaddress.style.color = 'green'
+        statusOfaddress.textContent = 'hợp lệ'
+        statusOfaddress.style.color = 'green'
     }
     else{
-        statuOfaddress.textContent = 'không hợp lệ'
-        statuOfaddress.style.color = 'red'
+        statusOfaddress.textContent = 'không hợp lệ'
+        statusOfaddress.style.color = 'red'
     }
 }
 
@@ -85,12 +85,12 @@ let statusOfphone = document.getElementById('statusOfphone')
 
 phone.addEventListener('focusout', leavephone)
 function leavephone(){   
-    var phoneRegex = /\S+@\S+.\S+/;
+    var phoneRegex = /((09|03|07|08|05)+([0-9]{8})\b)/g;
  if( phoneRegex.test(phone.value)){
     statusOfphone.textContent = 'hợp lệ'
     statusOfphone.style.color = 'red'
  }else{
-    statusOfphone.textContent = 'Optional'
+    statusOfphone.textContent = 'Không hợp lệ'
     statusOfphone.style.color = 'red'
  }
 }

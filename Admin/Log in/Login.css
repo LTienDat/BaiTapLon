@@ -1,16 +1,20 @@
 .login{
     width: 500px;
-    height: 500px;
-    border: 1px solid gray;
+    height: 300px;
     border-radius: 10px;
     text-align: center;
     margin: 200px 35% ;
     line-break: strict;
 }
+body{
+    background: url(../Images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 h2{
     padding: 20px;
 }
-#row{
+input{
     width: 350px;
     height: 35px;
 }
@@ -20,28 +24,26 @@ h2{
 .title{
     padding-right: 290px;
 }
-button{
+#login{
     width: 350px;
     height: 35px;
     margin-top: 20px;
     background-color: #45a049;
 }
-.remember{
-    margin-top: 10px;
-    margin-right: 273px;
-}
-.check{
-    margin-top: 20px;
-    
-}
 .forgot{
     margin-top: 20px;
     margin-left: 240px;
 }
-#signin{
+a{
+    text-decoration: none;
+}
+.signin{
+    border: 1px solid black;
     width: 250px;
-    height: 30px;
-    background-color: cadetblue;
-    
+    height: 25px;
+    background-color: cadetblue;  
+    text-align: center; 
+    margin-left: 120px; 
+    margin-top: 20px;
 }
 

@@ -1,18 +1,23 @@
 .signin{
     width: 500px;
-    height: 600px;
-    border: 1px solid gray;
+    height: 500px;;
     border-radius: 10px;
     margin: 120px 37%;
-    text-align: center;
+    padding-left: 100px;
+}
+body{
+    background: url(../Images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 h2{
     padding-bottom: 30px;
+    padding-left: 60px;
 }
 .info{
     margin-top: 20px;
 }
-#row{
+input{
     width: 300px;
     height: 25px;
 }
